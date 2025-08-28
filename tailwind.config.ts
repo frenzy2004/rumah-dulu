@@ -58,7 +58,8 @@ export default {
 					green: 'hsl(var(--fintech-green))',
 					'green-light': 'hsl(var(--fintech-green-light))',
 					gray: 'hsl(var(--fintech-gray))',
-					dark: 'hsl(var(--fintech-dark))'
+					purple: 'hsl(var(--fintech-purple))',
+					orange: 'hsl(var(--fintech-orange))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
