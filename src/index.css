@@ -17,17 +17,39 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 195 100% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 195 20% 95%;
+    --secondary-foreground: 195 100% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 195 10% 96%;
+    --muted-foreground: 195 5% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Malaysia fintech colors */
+    --fintech-blue: 195 100% 35%;
+    --fintech-blue-light: 195 100% 45%;
+    --fintech-green: 142 76% 36%;
+    --fintech-green-light: 142 76% 46%;
+    --fintech-gray: 195 5% 96%;
+    --fintech-dark: 195 15% 15%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--fintech-blue-light)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--fintech-green-light)));
+    --gradient-background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--fintech-gray)));
+
+    /* Shadows */
+    --shadow-fintech: 0 10px 30px -10px hsl(var(--primary) / 0.1);
+    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.08);
+    --shadow-button: 0 4px 15px -2px hsl(var(--primary) / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
